@@ -1,0 +1,745 @@
+@media screen and (max-width: 37.5em){
+body{
+	background: linear-gradient(#FFFFFF, #4F6D93);
+	font-family: 'helvetica', helvetica, sans-serif;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+
+
+main{
+	padding-top: 0.1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 0.1em;
+	background: #FFFFFF;
+	margin-left: 0px;
+	font-size: 90%;
+}
+
+header{
+	background: #000033;
+	color: #FFFFFF;
+	background-image: url("images/sunset.jpg");
+	background-position: right;
+	background-repeat:no-repeat;
+	text-align: center;
+	height: 60px;
+	padding-top: 1em;
+}
+
+nav{
+	
+	font-weight: bold;
+	padding: 0em;
+	float: none;
+	width: auto;
+	display: block;
+	text-align: center;
+}
+p{
+	font-size: 90%;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link{
+	color: #000033;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: #FFFFFF;
+}
+h1{
+	font-family: 'Georgia', sans-serif;
+	margin-top: 0px;
+	font-size: 1.5em;
+}
+h2{
+	color: #3399CC;
+	font-family: 'Georgia', sans-serif;
+	text-shadow: 1px 1px #CCCCCC;
+}
+h3{
+	color: #000033;
+	font-family: 'Georgia', sans-serif;
+}
+dt{
+	color: #000033;
+	font-family: 'Georgia', sans-serif;
+	font-weight: bold;
+}
+
+ul{
+	list-style-image: url('images/marker.gif');
+}
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: 'Georgia', sans-serif;
+	padding: 20px;
+	
+	background-color: #90C7E3;
+}
+input[type=submit]{
+	background-color: #90C7E3;
+}
+table{
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 5px;
+	border-collapse: collapse;
+	display: none;
+	
+}
+
+th{
+	text-align: center;
+	
+	background-color: #000033;
+	color: #FFFFFF;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 3px;
+}
+
+td{
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 3px;
+}
+tr:nth-child(odd){background-color: #f2f2f2}
+td:nth-child(2){text-align: left;}
+
+label{
+	display: block;
+}
+
+#form{
+	color: #808080;
+}
+#myTable{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#telmob{
+	
+}
+#telelse{
+	display: none;
+}
+
+#contact{
+	font-size: 90%;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+	font-size: 1.2em;
+	
+	
+	
+}
+#menu ul:link{
+	color: #000033;
+}
+#menu ul:visited{
+	color: #344873;
+}
+#menu ul:hover{
+	color: #FFFFFF;
+}
+
+
+#menu li {
+	display: block;
+	margin: 0px;
+
+
+	border-bottom: 2px solid;
+	border-bottom-color: #330000;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	
+}
+
+
+#main-image{
+	background-image: none;
+	height: 0px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+}
+
+#accommodations-image{
+	background-image: none;
+	height: 0px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	
+}
+
+#activities-image{
+	background-image: none;
+	height: 0px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	
+}
+#rightHelp{
+	float: right;
+}
+#wrapper {
+	background-color: #90C7E3;
+	width: 100%;
+	min-width: auto;
+	max-width: 2048px;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+#content {
+	padding: 0px;
+	
+}
+	
+.resort {
+	color: rgb(92, 127, 163);
+	text-align: center;
+}
+.titles {
+	font-weight: bold
+}
+.blueText{
+	color: rgb(0, 0, 255);
+	text-decoration: underline;
+}
+}
+@media screen and (min-width: 37.5em) and (max-width: 64em){
+body{
+	background: #FFFFFF;
+	font-family: 'helvetica', helvetica, sans-serif;
+	background-repeat: no-repeat;
+	margin: 0px;
+}
+
+
+main{
+	padding-top: 1px;
+	padding-left: 30px;
+	padding: 20px;
+	background: #FFFFFF;
+	margin-left: 0px;
+}
+
+header{
+	background: #000033;
+	color: #FFFFFF;
+	background-image: url("images/sunset.jpg");
+	background-position: right;
+	background-repeat:no-repeat;
+	text-align: center;
+	height: 60px;
+	padding-top: 15px;
+}
+
+nav{
+	
+	font-weight: bold;
+	padding: 0.5em;
+	float: none;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+p{
+	font-size: 90%;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link{
+	color: #000033;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: #FFFFFF;
+}
+h1{
+	font-family: 'Georgia', sans-serif;
+	margin-top: 0px;
+}
+h2{
+	color: #3399CC;
+	font-family: 'Georgia', sans-serif;
+	text-shadow: 1px 1px #CCCCCC;
+}
+h3{
+	color: #000033;
+	font-family: 'Georgia', sans-serif;
+}
+dt{
+	color: #000033;
+	font-family: 'Georgia', sans-serif;
+	font-weight: bold;
+}
+
+ul{
+	list-style-image: url('images/marker.gif');
+}
+label{
+	
+	
+	float: left;
+	width: 10em;
+	margin-right: 1em;
+	text-align: right;
+}
+input{
+	
+	margin-left: 2em;
+	
+	
+	
+}
+input[type=submit]{
+	background-color: #90C7E3;
+}
+textarea{
+	
+	margin-left: 2em;
+	overflow-y: scroll;
+}
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: 'Georgia', sans-serif;
+	padding: 20px;
+	background-color: #90C7E3;
+}
+
+table{
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 5px;
+	border-collapse: collapse;
+	
+}
+
+th{
+	text-align: center;
+	
+	background-color: #000033;
+	color: #FFFFFF;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 3px;
+}
+
+td{
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 3px;
+}
+tr:nth-child(odd){background-color: #f2f2f2}
+td:nth-child(2){text-align: left;}
+#form{
+	color: #808080;
+}
+#myTable{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#myTableTwo{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#myTableTwo td:nth-child(1){
+	text-align: left;
+	
+}
+#telmob{
+	display: none;
+}
+
+
+#telelse{
+
+}
+#contact{
+	font-size: 90%;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+	font-size: 1.2em;
+	
+	
+	
+}
+#menu ul:link{
+	color: #000033;
+}
+#menu ul:visited{
+	color: #344873;
+}
+#menu ul:hover{
+	color: #FFFFFF;
+}
+
+
+#menu li {
+	display: inline;
+	padding-bottom: 0.25em;
+	padding-top: 0.25em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	
+}
+
+
+#main-image{
+	background-image: url("images/coast-main.jpg");
+	height: 200px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+}
+
+#accommodations-image{
+	background-image: url("images/bungalow-main.jpg");
+	height: 200px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	
+}
+
+#activities-image{
+	background-image: url("images/trail-main.jpg");
+	height: 200px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	
+}
+#rightHelp{
+	float: right;
+}
+#wrapper {
+	background-color: #90C7E3;
+	width: 80%;
+	min-width: 0px;
+	width: auto;
+	max-width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: none;
+}
+
+#content {
+	padding: 0px;
+	
+}
+	
+.resort {
+	color: rgb(92, 127, 163);
+	text-align: center;
+}
+.titles {
+	font-weight: bold
+}
+.blueText{
+	color: rgb(0, 0, 255);
+	text-decoration: underline;
+}
+}
+
+@media screen and (min-width: 64em){
+body{
+	background: linear-gradient(#FFFFFF, #4F6D93);
+	font-family: 'helvetica', helvetica, sans-serif;
+	background-repeat: no-repeat;
+}
+
+
+main{
+	padding: 0px;
+	padding-top: 1px;
+	padding-left: 0px;
+	
+	background: #FFFFFF;
+	margin-left: 200px;
+}
+
+header{
+	background: #000033;
+	color: #FFFFFF;
+	background-image: url("images/sunset.jpg");
+	background-position: right;
+	background-repeat:no-repeat;
+	text-align: center;
+	height: 60px;
+	padding-top: 15px;
+}
+
+nav{
+	
+	font-weight: bold;
+	padding: 20px;
+	float: left;
+	height: auto;
+	width: 160px;
+}
+p{
+	font-size: 90%;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link{
+	color: #000033;
+}
+nav a:visited{
+	color: #344873;
+}
+nav a:hover{
+	color: #FFFFFF;
+}
+h1{
+	font-family: 'Georgia', sans-serif;
+	margin-top: 0px;
+}
+h2{
+	color: #3399CC;
+	font-family: 'Georgia', sans-serif;
+	text-shadow: 1px 1px #CCCCCC;
+}
+h3{
+	color: #000033;
+	font-family: 'Georgia', sans-serif;
+}
+dt{
+	color: #000033;
+	font-family: 'Georgia', sans-serif;
+	font-weight: bold;
+}
+
+ul{
+	list-style-image: url('images/marker.gif');
+}
+
+footer{
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: 'Georgia', sans-serif;
+	padding: 20px;
+	background-color: #90C7E3;
+}
+form{
+	margin-left: 1em;
+}
+label{
+	
+	
+	float: left;
+	width: 10em;
+	margin-right: 1em;
+	text-align: right;
+}
+input{
+	margin-left: 2em;
+	
+	
+	
+}
+input[type=submit]{
+	background-color: #90C7E3;
+}
+textarea{
+	
+	margin-left: 2em;
+	overflow-y: scroll;
+}
+table{
+	
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 5px;
+	border-collapse: collapse;
+	
+}
+
+th{
+	text-align: center;
+	
+	background: #000033;
+	color: #FFFFFF;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 3px;
+}
+
+td{
+	text-align: center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #90C7E3;
+	padding: 3px;
+}
+tr:nth-child(odd){background: #f2f2f2}
+td:nth-child(2){text-align: left;}
+
+#form{
+	color: #808080;
+}
+
+#myTable{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#myTableThree{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#myTableTwo{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#myTableTwo td:nth-child(1){
+	text-align: left;
+	
+}
+#telmob{
+	display: none;
+}
+#telelse{
+	padding-bottom: 1em;
+}
+#contact{
+	font-size: 90%;
+	margin-left: 1.25em;
+}
+
+#menu ul {
+	list-style: none;
+	margin: 0px;
+	padding-left: 0px;
+	font-size: 1.2em;
+	
+	
+	
+}
+#menu ul:link{
+	color: #000033;
+}
+#menu ul:visited{
+	color: #344873;
+}
+#menu ul:hover{
+	color: #FFFFFF;
+}
+
+
+#menu li {
+	display: inline;
+	
+}
+
+
+#main-image{
+	background-image: url("images/coast-main.jpg");
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 216px;
+}
+
+#accommodations-image{
+	background-image: url("images/bungalow-main.jpg");
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 190px;
+	
+}
+
+#activities-image{
+	background-image: url("images/trail-main.jpg");
+	height: 300px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	margin-left: 200px;
+	
+}
+#rightHelp{
+	float: right;
+}
+#wrapper {
+	background-color: #90C7E3;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 3px 3px #333333;
+}
+
+#content {
+	padding-left: 1em;
+	
+}
+
+.resort {
+	color: rgb(92, 127, 163);
+	text-align: center;
+}
+.titles {
+	font-weight: bold
+}
+.blueText{
+	color: rgb(0, 0, 255);
+	text-decoration: underline;
+}
+.hover {
+	background: yellow;
+	
+}
+}

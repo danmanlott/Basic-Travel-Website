@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	
+		<meta charset="utf-8">
+			<title> Page Title </title>
+			<link rel="stylesheet" href="atlantic.css" type="text/css" />
+			
+			
+		</head>
+		<div id="wrapper">
+			<header>
+				<h1>Atlantic Trails Resort</h1>
+			</header>
+			<nav>
+				
+				<div id="menu">
+					<ul>
+						<li>
+							<a href='home.html'>Home</a></li>
+						<li>
+							<a href='accommodations.html'>Accommodations</a></li>
+						<li>
+							<a href='activities.html'>Activities</a></li>
+						<li>
+							<a href="reservations.html">Reservations</a>
+						</li>
+					</ul>
+				
+				</div>
+				
+			</nav>
+
+			
+			<div id="content">
+			<main>
+				<article>
+					<h2> Reservations at Atlantic Trails </h2>
+					<h1>Contact Us Today!</h1>
+					
+					<div id="form">
+					<p>Required fields are marked with an asterisk *</p>
+					<form method="post" action="http://cs.ucf.edu/~markl/atlanticformreport.php" id="myForm">
+					<fieldset form="myForm">
+					<label for="myFName">*First Name:</label>
+					<input type="text" name = "myFName" id="myFName" required="required" autofocus><br><br>
+					<label for="myLName">*Last Name:</label>
+					<input type="text" name = "myLName" id="myLName" required="required" ><br><br>
+					<label for="myEmail">*E-Mail:</label>
+					<input type="email" name = "myEmail" id="myEmail" required="required" ><br><br>
+					<label for="myPhone">Phone:</label>
+					<input type="tel" name = "myPhone" id="myPhone" ><br><br>
+					<label for="myArrival">Arrival Date:</label>
+					<input type="date" name = "myArrival" id="myArrival"><br><br><!--value="mm/dd/yyyy" it wants it as yyyy/dd/mm  -->
+					<label for="myNights">Nights:</label>
+					<input type="number" name = "myNights" min="1" id="myNights"><br><br>
+					<label for="myComments">*Comments</label>
+					<textarea rows="2" cols="20" form="myForm" name = "myComments" id="myComments"></textarea><br><br>
+					
+					
+					
+					</fieldset>
+					<input type="submit" value="Submit">
+					</form>
+					
+					</div>
+					
+
+					<div id="contact">
+						<p><span class="resort">Atlantic Trails Resort</span>
+							<br>1210 Atlantic Trails Way
+								<br>Cliffside, Maine 04226
+									<br></p>
+										
+										
+										<div id="telmob"><a href="tel:888-555-555"><p>888-555-5555</p></a></div>
+										<div id="telelse"><p>888-555-5555</p></div>
+										
+									</div>
+								</article>
+								
+							</main>
+							<footer>
+								<p>Copyright &copy; 2016 Atlantic Trails Resort
+									<br>
+										<a href=#>Dan@Lott.com</a>
+									</p>
+									<p id="currTime"> </p>
+									<script type="text/javascript" src="jay.js"></script><!-- It only shows up after the id yay JS-->
+								</footer>
+								
+								
+							</div>
+							
+							</div>
+						</html>
